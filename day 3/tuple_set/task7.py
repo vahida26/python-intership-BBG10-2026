@@ -1,0 +1,3 @@
+no=[10,20,30,40,50,60]
+res=frozenset(no)
+print("Frozen Set:", res)
