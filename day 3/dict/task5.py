@@ -1,0 +1,12 @@
+default_settings={
+    "theme":"light",
+    "language":"english",
+    "font_size":12
+}
+user_settings={
+    "theme":"dark", 
+    "font_size":14,
+    "language":"spanish"
+}
+default_settings.update(user_settings)
+print(default_settings)
