@@ -1,0 +1,11 @@
+def safe_division(a,b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        print("Error: cannot divide by zero")
+    except TypeError:
+        print("Error:Invalid type")
+        
+print(safe_division(10,2))
+print(safe_division(10,0))
+print(safe_division(10, "xyz"))
